@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*...........................................Section Servicios */
+
+.linea-divisora {
+  height: 2px;
+  background-color: #00adb5;
+}
+
+.trabajos {
+  background-image: url(./images/background-services.png);
+  background-color: #13171c;
+  color: white;
+  padding-bottom: 126px;
+}
+
+.servicios__container-h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.trabajos__title {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 42px;
+  margin: 54px 0px;
+}
+
+.services__title-color {
+  color: #00adb5;
+}
+
+.trabajos__container-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins";
+  text-decoration: none;
+  color: white;
+}
+
+.trabajos__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 324px;
+  background-color: rgba(57, 62, 70, 0.5);
+  margin: 48px 0px;
+  border-radius: 16px;
+}
+
+.trabajos__cards:hover {
+  /* color: rgb(141, 141, 141); */
+  color: #00adb5;
+}
+
+.card-img {
+  margin-top: 42px;
+}
+
+.card_title {
+  font-size: 33px;
+  font-weight: 700;
+  padding: 25px 22px;
+  text-align: center;
+}
+
+.card_parrafo {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 22px;
+}
+
+@media (min-width: 800px) {
+  .trabajos {
+    display: flex;
+    gap: 20px;
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 800px) {
+  .trabajos__cards {
+    width: 240px;
+    height: 736px;
+  }
+}
+
+@media (min-width: 800px) {
+  .card-img {
+    width: 200px;
+    height: 118px;
+  }
+}
+
+@media (min-width: 800px) {
+  .trabajos__title {
+    font-size: 25px;
+    margin: 0;
+    padding-bottom: 25px;
+  }
+}
+
+@media (min-width: 800px) {
+  .container__parrafo {
+    display: flex;
+    align-items: flex-start;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 800px) {
+  .card_parrafo {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 22px;
+  }
+}
+
+/*           a partir de 1024px */
+
+@media (min-width: 1024px) {
+  .trabajos__cards {
+    width: 320px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-img {
+    width: initial;
+    height: initial;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card_title {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card_parrafo {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 22px;
+  }
+}
+
+/* a partir de 1280px */
+
+@media (min-width: 1280px) {
+  .trabajos__cards {
+    width: 360px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .trabajos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    padding-bottom: 100px;
+  }
+}

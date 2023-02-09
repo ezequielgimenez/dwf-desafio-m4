@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./components/header-comp/header.css" />
+    <link rel="stylesheet" href="./components/footer-comp/footer.css" />
+    <!-- <link rel="stylesheet" href="./pages/contacto.css" /> -->
+    <link rel="stylesheet" href="./components/form-comp/form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contacto</title>
+    <script defer src="./components/header-comp/header.js"></script>
+    <!-- funcion crea elemento tipo div -->
+    <script defer src="./components/footer-comp/footer.js"></script>
+    <!-- funcion crea elemento tipo div -->
+    <script defer src="./main.js"></script>
+    <script defer src="./components/header-comp/burger.js"></script>
+    <!-- funcion busca un elemento de tu html -->
+  </head>
+  <body>
+    <header class="section-header"></header>
+
+    <div class="linea-divisora"></div>
+    <section class="formulario">
+      <div class="formulario__container">
+        <div class="formulario__container-title">
+          <h3 class="formulario__title">Escribime</h3>
+        </div>
+        <div class="formulario__container-fields">
+          <div class="field">
+            <label id="name" for="text">Nombre</label>
+            <input id="name" class="formulario__input" type="text" />
+          </div>
+
+          <div class="field">
+            <label id="email" for="text">Email</label>
+            <input id="email" class="formulario__input" type="text" />
+          </div>
+
+          <div class="field">
+            <label id="email" for="text">Mensaje</label>
+            <textarea
+              name=""
+              class="formulario__textarea"
+              id="mensaje"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div class="field">
+            <button class="formulario__button">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="linea-divisora"></div>
+
+    <footer class="section-footer"></footer>
+  </body>
+</html>

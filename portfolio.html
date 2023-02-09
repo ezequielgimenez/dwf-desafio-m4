@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./components/header-comp/header.css" />
+    <link rel="stylesheet" href="./components/footer-comp/footer.css" />
+    <link rel="stylesheet" href="./pages/home.css" />
+    <link rel="stylesheet" href="./pages/portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mis Trabajos</title>
+    <script defer src="./components/header-comp/header.js"></script>
+    <!-- funcion crea elemento tipo div -->
+    <script defer src="./components/footer-comp/footer.js"></script>
+    <!-- funcion crea elemento tipo div -->
+    <script defer src="./main.js"></script>
+    <script defer src="./portfolio/portfolio.js"></script>
+    <script defer src="./components/header-comp/burger.js"></script>
+    <!-- funcion busca un elemento de tu html -->
+  </head>
+  <body>
+    <header class="section-header"></header>
+
+    <div class="linea-divisora"></div>
+
+    <section class="bienvenida">
+      <div class="container-bienvenida">
+        <div class="container-title">
+          <h1 class="title-hola">Mis</h1>
+          <h1 class="otro-color-title">Trabajos</h1>
+        </div>
+        <img class="image1" src="./images/maletin.png" alt="image" />
+      </div>
+    </section>
+    <div class="linea-divisora"></div>
+
+    <section class="trabajos"></section>
+
+    <template id="template-card">
+      <a class="trabajos__container-cards ver" href="">
+        <div class="trabajos__cards">
+          <img class="card-img" src="" alt="" />
+          <h1 class="trabajos__title"></h1>
+          <div class="container__parrafo">
+            <p class="card_parrafo"></p>
+          </div>
+        </div>
+      </a>
+    </template>
+
+    <div class="linea-divisora"></div>
+
+    <footer class="section-footer"></footer>
+  </body>
+</html>
